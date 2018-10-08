@@ -2,6 +2,7 @@
 
 class Student < User 
 
+  def initialize
   KNOWLEDGE = []
 
   def learn(string)

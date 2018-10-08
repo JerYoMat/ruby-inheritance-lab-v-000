@@ -3,7 +3,7 @@
 class Student < User 
 
   def initialize
-  KNOWLEDGE = []
+  KNOWLEDGE = [
 
   def learn(string)
     KNOWLEDGE << string 
